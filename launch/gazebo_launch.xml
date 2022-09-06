@@ -3,4 +3,8 @@
   <executable name='sensor-world'>
     <command>ign gazebo ugvs.sdf</command>
   </executable>
-</ignition>
+
+  <executable name= 'moving'>
+  <command>ros2 run ros_ign_bridge parameter_bridge /model/x1/tf@geometry_msgs/msg/Twist]ignition.msgs.Twist</command>
+  </executable>
+  </ignition>
